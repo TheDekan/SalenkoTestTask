@@ -12,9 +12,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-/**
- * Created by xvitcoder on 12/24/15.
- */
+
 @Configuration
 @EnableWebMvc
 @Import({ HibernateConfiguration.class })
