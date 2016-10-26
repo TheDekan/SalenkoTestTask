@@ -9,9 +9,7 @@ import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
-/**
- * Created by xvitcoder on 12/24/15.
- */
+
 public class AppInitializer implements WebApplicationInitializer {
 
 	public void onStartup(ServletContext servletContext)
